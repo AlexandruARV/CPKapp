@@ -1,0 +1,48 @@
+:root {
+  --main-color: #1d4ed8;
+  --main-color-lighter: #2563eb;
+}
+
+.main {
+  width: 800px;
+  margin: 200px auto;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+}
+
+.values-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+
+.input {
+  font-size: 1.4rem;
+  width: 200px;
+  padding: 0.5rem 0rem;
+  border-radius: 0.3rem;
+  border: 1px gray solid;
+}
+
+.btn {
+  font-size: 1rem;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.6rem;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--main-color-lighter);
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}

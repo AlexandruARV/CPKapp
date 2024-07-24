@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+  <title>CPK</title>
+</head>
+
+<body>
+  <main class="main">
+    <form class="form">
+
+      <div class="values-container">
+        <label>Values</label>
+        <input class="input input-values" required>
+      </div>
+      <div class="values-container">
+        <label>USL</label>
+        <input class="input input-usl" required>
+      </div>
+      <div class="values-container">
+        <label>LSL</label>
+        <input class="input input-lsl" required>
+      </div>
+
+      <button class="btn">Calculate</button>
+    </form>
+    <div class="result"></div>
+  </main>
+
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
