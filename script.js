@@ -45,7 +45,7 @@ class CalculatorCpk {
       const high = ((this.avg - LSL) / 3) * this.deviation;
 
       this.CPK = Math.min(low, high);
-      this.result.innerHTML = this.CPK.toFixed(4);
+      this.result.innerHTML = `Your CPK is ${this.CPK.toFixed(4)}`;
       this.exportToExcel();
     });
   }
